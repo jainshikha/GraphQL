@@ -1,0 +1,8 @@
+type Query {
+    ECUModels: [ecuModel]
+}
+
+type ecuModel {
+    id: ID
+    name: String
+}
